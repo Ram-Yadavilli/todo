@@ -1,0 +1,39 @@
+.bg {
+  display: flex;
+  flex-direction: column;
+  background-color: plum;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  background-size: cover;
+  overflow: auto;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+
+  flex-wrap: wrap;
+}
+
+.b {
+  background-color: blue;
+}
+.b1 {
+  background-color: red;
+  margin-left: 10px;
+}
+.na {
+  text-align: center;
+}
+.bo {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin: 20px;
+  border-radius: 10px;
+}

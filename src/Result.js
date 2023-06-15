@@ -7,13 +7,13 @@ const Result = (props) => {
   const o = () => {
     delBtn(id);
   };
-  const o1 = () => {
+  const au = () => {
     cheBtn(id);
   };
 
   return (
     <li>
-      <input type="checkbox" checked={isChecked} onChange={o1} />
+      <input type="checkbox" checked={isChecked} onChange={au} />
       <h1>{name}</h1>
       <AiFillDelete
         onClick={o}
